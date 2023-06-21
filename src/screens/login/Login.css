@@ -1,0 +1,54 @@
+
+
+.loginContainer{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: url("../../assets//wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.loginForm{
+   z-index: 17493400;
+   background: rgba(0, 0, 0, 0.6);
+   padding: 70px 40px;
+   border-radius: 10px;
+}
+
+.loginForm h1{
+  color: white;
+}
+
+.loginInput{
+    width: 300px;
+    height: 40px;
+    background: rgb(72, 72, 72);
+    outline: none;
+    border: none;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    color: white;
+}
+.loginBtn{
+    width: 300px;
+    height: 40px;
+    background: red;
+    color: white;
+    outline: none;
+    border: none;
+    margin: 10px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.loginOverlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}

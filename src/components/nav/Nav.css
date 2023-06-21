@@ -1,0 +1,193 @@
+
+.navItemsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 60px;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.logoContainer{
+    display: none;
+}
+
+.navItemClose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 60px;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.navItemsContainer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* padding: 20px 0px; */
+}
+.navItemClose ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* padding: 20px 0px; */
+}
+
+.navContainer{
+    position: fixed;
+    min-width: 100%;
+    z-index: 999994384736;
+    top: 0;
+    left: 0px;
+}
+
+.navLinks{
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    outline: none;
+    border: none;
+}
+
+button .btnLoginLink{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.loginBtnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.orangeFlix{
+    width: 150px;
+}
+
+.logoImg{
+    width: 150px;
+}
+
+.searchInput{
+    outline: none;
+    border: .5px solid grey;
+    background: transparent;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    padding: 0px 20px;
+}
+.searchBtn{
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.searchForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btnToggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.searchToggle{
+    cursor: pointer;
+    transition: all.5s linear;
+}
+
+.hamBtnContainer{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    .hamBtnContainer{
+        display: block;
+    }
+
+    .hamBtnRotate{
+        transform: rotate(90deg);
+        transition: all .5s linear;
+        cursor: pointer;
+    }
+
+    .hamBtn{
+        transition: all .5s linear;
+        cursor: pointer;
+    }
+
+    .orangeFlix{
+        display: none;
+    }
+
+    .navItemClose ul{
+        position: absolute;
+        transform: translateY(-500px);
+        background: rgb(1, 8, 17);
+        top: 60px;
+        left: 0px;
+        display: block;
+        min-width: 100%;
+        padding: 20px 0px;
+        transition: all .5s linear;
+    }
+
+    .navItemsContainer ul{
+        position: absolute;
+        background: rgb(1, 8, 17);
+        transform: translateY(0px);
+        top: 60px;
+        left: 0px;
+        display: block;
+        min-width: 100%;
+        padding: 20px 0px;
+        transition: all .5s linear;
+    }
+
+    .navItemsContainer ul li{
+        text-align: center;
+        margin: 25px 0px;
+        padding: 10px;
+        transition: all .5s linear;
+    }
+
+    .navItemClose ul li{
+        text-align: center;
+        margin: 25px 0px;
+        padding: 10px;
+        transition: all .5s linear;
+    }
+
+    .navItemsContainer ul li:hover{
+        background: red;
+    }
+
+    .logoContainer{
+        display: block;
+    }
+
+}

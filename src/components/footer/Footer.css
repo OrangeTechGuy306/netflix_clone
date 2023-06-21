@@ -1,0 +1,28 @@
+
+
+.footerContainer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footerLinks{
+    color: grey;
+}
+
+.footerItemContainer ul li{
+    margin: 10px 0px;
+}
+
+.footerlogo{
+    width: 100px;
+}
+
+.footerLogoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}

@@ -1,0 +1,78 @@
+.homepgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background: url("../../assets/wallpaperii.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.homepgOverlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.homepageContent{
+    z-index: 222;
+}
+
+.getStartedInput{
+    width: 400px;
+    outline: none;
+    border: none;
+    background: white;
+    height: 50px;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+
+.getStartedBtn{
+    width: 200px;
+    outline: none;
+    border: none;
+    background: red;
+    color: white;
+    height: 50px;
+    cursor: pointer;
+}
+
+.getStartedForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.homepageContent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.homepageContent > h1{
+    font-size: 50px;
+    color: white;
+    width: 500px;
+    text-align: center;
+}
+
+.homepageContent > h3{
+    font-size: 24px;
+    color: white;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.homepageContent > h5{
+    font-size: 18px;
+    color: white;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}

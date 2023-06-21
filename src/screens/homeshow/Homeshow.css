@@ -1,0 +1,94 @@
+
+
+.homeshowFlyerContainer{
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.homeFlyerImg{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.typeContainer{
+    position: absolute;
+    top: 130px;
+    color: silver;
+    left: 100px;
+}
+
+.typeContainer h1{
+    font-size: 40px;
+    /* font-weight: bold; */
+}
+
+.moviePlayBtn{
+    display: flex;
+}
+
+.btnPlay{
+    background: red;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btnLater{
+    background: rgb(4, 88, 224);
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.movieInfoContainer{
+    position: absolute;
+    bottom: 100px;
+    left: 70px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.movieInfoContainer h1{
+    font-size: 50px;
+    color: white;
+    margin: 10px 0px;
+}
+.movieInfoContainer h3{
+    font-size: 20px;
+    color: yellow;
+}
+.movieInfoContainer p{
+    color: white;
+    width: 400px;
+    margin: 10px 0px;
+}
+
+.movieGenres > h3{
+    color: red;
+    width: 80%;
+    padding: 20px 0px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+    color: red;
+}
